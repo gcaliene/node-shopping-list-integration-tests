@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: bT/EF2l20O1mHbVVOFevknDgIAb3QDlkluHep1O+MVJpFYfGvCdzlxt+uSCIH/UpJ52AWoDk25j1vmb5FE/+u+YG1FZwE2qKv5M/GS+oWK0su94+afF1qD+1DX7kuE6tGzCrUe4eJ120xamtIZcIG2BfNQdbRrfBg0aVw294vq02R2fN0VaybKDGXlRK3u2h/Tk+ZF8OCpnDCUI8ERN4/lZ73IGCJaenTYNkWC/cJ4GC8JStYaiK2t73X654DZsYx/8fOlefXJQoH43/1nzv6Pmspzz7EPbSp3ANA41T/5l3ycV4CBOqnddDri9UxTTKslkaOzfaohDdlvMdT1pG05LOag/ibbNT9M//cMypdLby4qFX3ysKS/uwuMr1DcxnoHv8oR1KAa0neLyjEa0cUK5jAWKD+/zX1dzf7R2FcWv/I+2mGhI32caf1puyJiTa5zBRMjpWEj8zUGhu9X9rpWSM991XvaFdGgsVfIXXUf3HEbXHKSjmFnPOfftsLSC0KWewbkv4DeIwpq/J2sJRr9Mo/FhTMRosrGpbIdshqOYYNg9kKUDA4C+IULeWz+tCoLGfmoMQdSPDBU0AXA7YJuEc+7AR0ho3LiU+L7RThYm0mFCrO7w8wef4Yx2QN6BZMvZrCUXKv9pzsmS0dCeEbgXRbon9/8EqI7RGjg8Qadk=
+  app: warm-woodland-75990
+  on:
+    repo: gcaliene/node-shopping-list-integration-tests
